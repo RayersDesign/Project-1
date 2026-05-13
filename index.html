@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fairway & Co. — Golf Vintage Seconde Main</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-flag">⛳</span>
+        <span class="logo-text">Fairway <em>&amp;</em> Co.</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">Notre Histoire</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#pourquoi">Pourquoi Vintage</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="btn-nav">Boutique</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about">Notre Histoire</a>
+      <a href="#collection">Collection</a>
+      <a href="#pourquoi">Pourquoi Vintage</a>
+      <a href="#contact">Contact</a>
+      <a href="#" class="btn-mobile">Boutique</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Country Club &bull; Vintage &bull; Seconde Main</p>
+      <h1 class="hero-title">Le terrain&nbsp;mérite<br /><em>du style.</em></h1>
+      <p class="hero-subtitle">
+        Des vêtements de golf vintage soigneusement sélectionnés —<br />
+        pour jouer avec caractère, sans se ruiner.
+      </p>
+      <div class="hero-cta">
+        <a href="#collection" class="btn-primary">Voir la Collection</a>
+        <a href="#about" class="btn-ghost">Notre Histoire</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span>100%</span>
+      <span>Seconde<br />Main</span>
+    </div>
+    <div class="hero-scroll">
+      <span>Défiler</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- BANDEAU -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>Pièces Uniques &nbsp;&bull;&nbsp;</span>
+      <span>Golf Vintage &nbsp;&bull;&nbsp;</span>
+      <span>Seconde Main Sélectionné &nbsp;&bull;&nbsp;</span>
+      <span>Country Club Style &nbsp;&bull;&nbsp;</span>
+      <span>Livraison France &nbsp;&bull;&nbsp;</span>
+      <span>Pièces Uniques &nbsp;&bull;&nbsp;</span>
+      <span>Golf Vintage &nbsp;&bull;&nbsp;</span>
+      <span>Seconde Main Sélectionné &nbsp;&bull;&nbsp;</span>
+      <span>Country Club Style &nbsp;&bull;&nbsp;</span>
+      <span>Livraison France &nbsp;&bull;&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- À PROPOS -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="img-placeholder">
+            <div class="img-decor"></div>
+            <div class="img-inner">
+              <span class="big-icon">⛳</span>
+            </div>
+          </div>
+          <div class="about-stat-card">
+            <strong>+500</strong>
+            <span>Pièces sélectionnées</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="section-eyebrow">Notre Histoire</p>
+          <h2 class="section-title">Nés sur le fairway,<br /><em>habillés dans le passé.</em></h2>
+          <p>
+            Fairway &amp; Co. est né d'une passion simple : le golf a une esthétique unique,
+            authentique, qui s'est un peu perdue avec le temps. Nous parcourons les marchés,
+            les vides-greniers et les clubs pour retrouver ces pièces oubliées — polos Ralph Lauren
+            des années 80, pulls en laine Pringle, pantalons tartans, blazers de club.
+          </p>
+          <p>
+            Chaque vêtement est inspecté, nettoyé et authentifié avant de rejoindre notre collection.
+            Parce que jouer beau, c'est jouer bien.
+          </p>
+          <div class="about-values">
+            <div class="value">
+              <span class="value-icon">♻️</span>
+              <div>
+                <strong>Circulaire</strong>
+                <span>Donner une seconde vie à chaque pièce</span>
+              </div>
+            </div>
+            <div class="value">
+              <span class="value-icon">🔍</span>
+              <div>
+                <strong>Sélectionné</strong>
+                <span>Chaque article inspecté avec soin</span>
+              </div>
+            </div>
+            <div class="value">
+              <span class="value-icon">🏌️</span>
+              <div>
+                <strong>Authentique</strong>
+                <span>L'âme du golf des grandes époques</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLECTION -->
+  <section class="collection" id="collection">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Nos Pièces</p>
+        <h2 class="section-title">La Collection <em>du Moment</em></h2>
+        <p class="section-desc">Stocks limités — chaque pièce est unique</p>
+      </div>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Tout</button>
+        <button class="filter-btn" data-filter="polos">Polos</button>
+        <button class="filter-btn" data-filter="pulls">Pulls &amp; Sweats</button>
+        <button class="filter-btn" data-filter="pantalons">Pantalons</button>
+        <button class="filter-btn" data-filter="blazers">Blazers</button>
+      </div>
+      <div class="products-grid">
+        <div class="product-card" data-category="polos">
+          <div class="product-img">
+            <div class="product-img-placeholder polo"></div>
+            <span class="product-badge">Rare</span>
+            <button class="product-wish">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-brand">Ralph Lauren</p>
+            <h3 class="product-name">Polo Piqué Vintage '82</h3>
+            <div class="product-meta">
+              <span class="product-size">L</span>
+              <span class="product-condition">Excellent état</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">68 €</span>
+              <button class="btn-add">Voir →</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-category="pulls">
+          <div class="product-img">
+            <div class="product-img-placeholder pull"></div>
+            <span class="product-badge new">Nouveau</span>
+            <button class="product-wish">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-brand">Pringle of Scotland</p>
+            <h3 class="product-name">Pull en Laine Argyle</h3>
+            <div class="product-meta">
+              <span class="product-size">M</span>
+              <span class="product-condition">Très bon état</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">95 €</span>
+              <button class="btn-add">Voir →</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-category="pantalons">
+          <div class="product-img">
+            <div class="product-img-placeholder pantalon"></div>
+            <button class="product-wish">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-brand">Lyle &amp; Scott</p>
+            <h3 class="product-name">Pantalon Tartan Club</h3>
+            <div class="product-meta">
+              <span class="product-size">40</span>
+              <span class="product-condition">Bon état</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">55 €</span>
+              <button class="btn-add">Voir →</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-category="blazers">
+          <div class="product-img">
+            <div class="product-img-placeholder blazer"></div>
+            <span class="product-badge">Pièce de Club</span>
+            <button class="product-wish">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-brand">Slazenger</p>
+            <h3 class="product-name">Blazer Vert Club '75</h3>
+            <div class="product-meta">
+              <span class="product-size">48</span>
+              <span class="product-condition">Excellent état</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">120 €</span>
+              <button class="btn-add">Voir →</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-category="polos">
+          <div class="product-img">
+            <div class="product-img-placeholder polo2"></div>
+            <button class="product-wish">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-brand">Fred Perry</p>
+            <h3 class="product-name">Polo Tennis-Golf '90</h3>
+            <div class="product-meta">
+              <span class="product-size">XL</span>
+              <span class="product-condition">Très bon état</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">72 €</span>
+              <button class="btn-add">Voir →</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card" data-category="pulls">
+          <div class="product-img">
+            <div class="product-img-placeholder pull2"></div>
+            <span class="product-badge new">Nouveau</span>
+            <button class="product-wish">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-brand">Burberry Golf</p>
+            <h3 class="product-name">Gilet Sans Manches Check</h3>
+            <div class="product-meta">
+              <span class="product-size">S</span>
+              <span class="product-condition">Excellent état</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">110 €</span>
+              <button class="btn-add">Voir →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="collection-cta">
+        <a href="#" class="btn-primary">Voir toute la collection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- POURQUOI VINTAGE -->
+  <section class="why" id="pourquoi">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-text">
+          <p class="section-eyebrow">Pourquoi Choisir le Vintage</p>
+          <h2 class="section-title">Le style ne se<br /><em>jette pas.</em></h2>
+          <p>
+            Le golf vintage c'est plus qu'une mode — c'est un retour aux sources.
+            Ces vêtements ont été fabriqués pour durer, avec des matières nobles comme la laine,
+            le coton piqué, le cachemire. Ils ont traversé les décennies et ils sont toujours là.
+          </p>
+          <div class="why-stats">
+            <div class="stat">
+              <strong>73%</strong>
+              <span>moins d'impact CO₂ qu'un vêtement neuf</span>
+            </div>
+            <div class="stat">
+              <strong>3x</strong>
+              <span>plus durable que la fast fashion actuelle</span>
+            </div>
+            <div class="stat">
+              <strong>∞</strong>
+              <span>caractère et unicité garantis</span>
+            </div>
+          </div>
+        </div>
+        <div class="why-cards">
+          <div class="why-card">
+            <span class="why-num">01</span>
+            <h3>Pièces Uniques</h3>
+            <p>Aucun double, aucune série. Chaque pièce est la seule de son genre dans notre stock.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">02</span>
+            <h3>Qualité Supérieure</h3>
+            <p>Les grandes maisons des années 70-90 fabriquaient pour durer. Ces vêtements le prouvent.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">03</span>
+            <h3>Engagement Durable</h3>
+            <p>Acheter seconde main, c'est faire un choix conscient pour la planète et l'artisanat.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">04</span>
+            <h3>Prix Justes</h3>
+            <p>Des pièces de prestige à une fraction du prix neuf. Le luxe accessible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-inner">
+        <div class="nl-text">
+          <p class="section-eyebrow">Restez dans le Circuit</p>
+          <h2>Nouvelles pièces chaque semaine</h2>
+          <p>Soyez les premiers informés des nouvelles arrivées, exclusivités et ventes privées.</p>
+        </div>
+        <form class="nl-form" id="nlForm">
+          <div class="nl-input-wrap">
+            <input type="email" placeholder="votre@email.com" required />
+            <button type="submit" class="btn-primary">S'inscrire</button>
+          </div>
+          <p class="nl-legal">Pas de spam. Désabonnement en un clic.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-flag">⛳</span>
+            <span class="logo-text">Fairway <em>&amp;</em> Co.</span>
+          </a>
+          <p>Vêtements de golf vintage &amp; seconde main, soigneusement sélectionnés pour les amoureux du jeu.</p>
+          <div class="socials">
+            <a href="#" class="social" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="social" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social" aria-label="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Boutique</h4>
+          <ul>
+            <li><a href="#">Tous les articles</a></li>
+            <li><a href="#">Polos</a></li>
+            <li><a href="#">Pulls &amp; Sweats</a></li>
+            <li><a href="#">Pantalons</a></li>
+            <li><a href="#">Blazers</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Marque</h4>
+          <ul>
+            <li><a href="#">Notre Histoire</a></li>
+            <li><a href="#">Vendre une Pièce</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Aide</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Livraison &amp; Retours</a></li>
+            <li><a href="#">Guide des Tailles</a></li>
+            <li><a href="#">Mentions Légales</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fairway &amp; Co. Tous droits réservés.</p>
+        <p>Fait avec ♥ pour les amoureux du golf</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
